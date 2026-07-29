@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1785343926">
-  <project timestamp="1785343926" name="Clover Coverage">
+<coverage generated="1785344284">
+  <project timestamp="1785344284" name="Clover Coverage">
     <package name="Milpa\Template">
       <file name="/home/rod/Web/projects/TeamX/BRAIN/TeamX/platform/getmilpa-template/src/LatteEngine.php">
         <class name="Milpa\Template\LatteEngine" namespace="Milpa\Template">
