@@ -9,6 +9,19 @@
 
 # Milpa Template
 
+> **RETIRED.** This package is abandoned in favour of [`milpa/live-web`](https://github.com/getmilpa/live-web).
+> Nothing in the Milpa family ever depended on it, and the framework's rendering is done elsewhere:
+> `milpa/live` + `milpa/live-web` are the official UI system, and `live-web` renders its templates with
+> `LatteTemplateRenderer` — a dependency-free subset of the Latte syntax, deliberately written to avoid a
+> Composer dependency on `latte/latte`. Wiring this package in would have added back exactly that
+> dependency, for a multi-directory resolution feature nobody asked for.
+>
+> It is marked `abandoned` rather than deleted: it shipped as `v0.1.0` on Packagist and an app resolved it,
+> so pretending it never existed would be a worse record than saying it was a mistake. The history below is
+> kept for anyone who installed it.
+>
+> Retired by greenhouse `decisions/0219`.
+
 > Framework-agnostic template rendering for the Milpa PHP framework — [Latte](https://latte.nette.org/)
 > behind an interface small enough to replace.
 
