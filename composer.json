@@ -2,6 +2,7 @@
   "name": "milpa/template",
   "description": "Framework-agnostic template rendering (Latte) for the Milpa PHP framework.",
   "type": "library",
+  "abandoned": "milpa/live-web",
   "license": "Apache-2.0",
   "authors": [
     {
